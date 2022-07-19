@@ -6,7 +6,7 @@ body {
         serif;
     font-family: 'Poppins',
         sans-serif;
-        margin : 10px;
+        margin : 0;
         border: 5px solid rgb(115, 236, 16);
         padding: 0;
         background-color: white;
@@ -17,30 +17,41 @@ body {
 }
 .top-section, .middle-section{
     width: 1100px;
+    height: 100%;
+    
 }
 
 .header-container{
+    margin-top: 30px;
     color: white;
-    padding: 30px;
+    padding: 50px;
     padding-bottom: 0;
     border: 1px solid red;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: rgb(12, 11, 11);
-    border-radius: 10px;
+    background-color:#161616;
+    border-radius: 30px;
+    height: 100%;
 }
 
 .title-container{
     border: 1px solid blue;
+    
+}
+.title-container h1{
+    font-size: 50px;
 }
 
+.title-container p{
+    margin-bottom: 50px;
+}
 .watch-live{
     text-decoration: none;
     background-color: red;
     align-content: center;
     padding: 15px 25px;
     color: white;
-    font-weight: 700;
+    font-weight: 500;
     border-radius: 5px;
 }
 
@@ -52,29 +63,38 @@ body {
 .middle-section{
     display: grid;
     grid-template-columns: 250px 1fr;
-    border: 2px solid violet;
+    border: 2px solid rgb(235, 8, 235);
+    margin-top: 100px;
+
 }
 .navbar{
-    border: 2px solid orange;
+    padding-top: 25px;
+    border: 2px solid rgb(179, 240, 12);
+    background-color: #161616;
     display: grid;
-    grid-template-columns: 200px;
-    height: 350px;
+    grid-template-columns: 1fr;
+    height: 270px;
     justify-items: center;
 
 }
 
-.upcoming-match-btn{
+.navbar-btn{
+    margin: 0;
     height: 30px;
-    width: 100px;
-}
-.all-group-btn{
-    height: 30px;
-    width: 100px;
+    width: 140px;
+    text-decoration: none;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    align-content: center;
+    padding: 15px 25px;
+    color: #161616;
+    font-weight: 500;
+    border-radius: 5px;
 }
 
-.blog-btn{
-    height: 30px;
-    width: 100px;
+#blog-btn{
+    background-color: red;
+    color: white
 }
 
 .article-container{
