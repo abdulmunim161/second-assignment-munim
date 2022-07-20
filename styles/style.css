@@ -101,26 +101,40 @@ body {
     border: 2px solid cyan;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
 }
 
 .blog{
-
+    border: 1px solid blue;
 }
 
 .blog-info{
-
+    
 }
 
 .blog-info img{
     width: 100%;
+    
 }
 
 .transfer-btn{
-
+    margin-left: 20px;
 }
-
+.blog-info h4{
+    margin-left: 20px;
+}
 .blog-time-chat{
-
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 30px;
+    
+}
+.blog-time-chat img{
+    margin-left: 20px;
+}
+.blog-time-chat p{
+    margin-left: 20px;
 }
 footer{
     width: 100%;
