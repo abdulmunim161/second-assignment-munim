@@ -6,17 +6,16 @@ body {
         serif;
     font-family: 'Poppins',
         sans-serif;
-        margin : 0;
-        border: 5px solid rgb(115, 236, 16);
-        padding: 0;
-        background-color: white;
-        display: grid;
-        grid-template-columns: 1fr;
-        justify-items: center;
+    margin : 0;
+    padding: 0;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
         
 }
 .container-without-footer{
-    width: 1100px;
+    width: 1024px;
 }
 
 .top-section, .middle-section{
@@ -26,8 +25,8 @@ body {
 .header-container{
     margin-top: 20px;
     color: white;
-    padding: 50px;
-    padding-bottom: 50px;
+    padding: 50px 50px 50px;
+    padding-bottom: 0px;
     border: 1px solid red;
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -37,7 +36,7 @@ body {
 }
 
 .title-container{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     
 }
 .title-container h1{
@@ -60,20 +59,28 @@ body {
 
 .header-image{
     width: 100%;
+    height: auto;
+    margin-top: 0px;
+    /* border: 1px solid yellow; */
     margin-left: 20px;
+    margin-bottom: 0;
+}
+.header-image img{
+    width: 450px;
+    height: 500px;
 }
 
 .middle-section{
     display: grid;
     grid-template-columns: 250px 1fr;
-    border: 2px solid rgb(235, 8, 235);
+    /* border: 2px solid rgb(235, 8, 235); */
     margin-top: 40px;
     margin-bottom: 70px;
 
 }
 .navbar{
     padding-top: 25px;
-    border: 2px solid rgb(179, 240, 12);
+    /* border: 2px solid rgb(179, 240, 12); */
     background-color: #161616;
     display: grid;
     grid-template-columns: 1fr;
@@ -103,7 +110,7 @@ body {
 }
 
 .article-container{
-    border: 2px solid cyan;
+    /* border: 2px solid cyan; */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 15px;
@@ -111,8 +118,9 @@ body {
 }
 
 .blog{
-    border: 1px solid blue;
+    border: 0.1px solid rgb(240, 237, 237);
     border-radius: 10px;
+    padding-bottom: 10px;
 }
 
 .blog-info{
@@ -125,7 +133,13 @@ body {
 }
 
 .transfer-btn{
+    margin-top: 15px;
     margin-left: 20px;
+    width: 100px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: white;
 }
 .blog-info h4{
     margin-left: 20px;
